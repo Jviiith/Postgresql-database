@@ -5,4 +5,4 @@ VPC, Subnet, Route Table, Internet Gateway, Security Groups, EC2 Instance.
 
 A Python application has been created to connect to a database and perform read, write, and update operations.
 
-In order to to make the PostgreSQL instance resilient and highly available, I would need to create the instance in a private subnets using autoscaling groups, and deploy the instance in multiple availabilty zones.
+In order to to make the PostgreSQL instance resilient and highly available, I would need to provision the Postgresql instances in a private subnets using autoscaling groups, spanning across multiple availabilty zones.
